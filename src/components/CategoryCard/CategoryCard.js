@@ -13,7 +13,7 @@ export default function CategoryCard({ image, description, title, totalPlaylists
         </Card.Text>
         <hr />
         <Card.Text>
-          {totalPlaylists} {totalPlaylists > 1 ? "Playlists" : "Playlist"}
+          {totalPlaylists} {totalPlaylists === 1 ? "Playlist" : "Playlists"}
         </Card.Text>
       </Card.Body>
     </Card>
