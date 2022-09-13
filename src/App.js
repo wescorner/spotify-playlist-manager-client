@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 // import { Container } from 'react-bootstrap';
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProtectedRoutes from "./ProtectedRoutes";
