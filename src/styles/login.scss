@@ -1,0 +1,28 @@
+$spotify-green: #1DB954;
+
+.login {
+  background-color: $spotify-green;
+  padding: 20px;
+  border-radius: 99px;
+  text-decoration: none !important;
+  color: white !important;
+  margin-top: 10%;
+  font-weight: 600;
+}
+
+.title {
+  color: grey;
+}
+
+img[alt="SpotifyLogo"] {
+  width: 450px;
+  height: auto; 
+  margin-top: 10%;
+  margin-bottom: 1em;
+}
+
+.loginContainer {
+  height: 100vh;
+  background-color: black;
+}
+

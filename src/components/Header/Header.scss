@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2%;
+  margin-left: 3.5%;
+  color: white;
+
+  .headerTitle {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-top: 10px;
+
+    h1 {
+      font-weight: 700;
+      font-size: 4rem;
+    }
+
+    #logo {
+      width: 100px;
+      height: 60px;
+      align-self: center;
+    }
+  }
+
+  #profileButton {
+    display: flex;
+    all: unset;
+    background-color: rgb(46, 46, 46);
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 25px;
+    padding: 2px;
+    padding-right: 20px;
+    height: 50px;
+    font-size: 20px;
+    margin-right: 5%;
+    text-align: center;
+
+    #userPhoto {
+      border-radius: 50%;
+      height: 3rem;
+      width: 3rem;
+      padding-top: 3px;
+      padding-left: 2px;
+    }
+
+    #username {
+      margin-left: 1em;
+      margin-top: 7px;
+      font-weight: 700;
+      width: 90%;
+    }
+  }
+
+  #logoutButton {
+    all: unset;
+    background-color: #1FDF64;
+    color: black;
+    cursor: pointer;
+    font: inherit;
+    width: 120px;
+    height: 52px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 25px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
