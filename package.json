@@ -25,10 +25,9 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "sass-loader": "^13.0.2",
     "spotify-web-api-js": "^1.5.2",
-    "web-vitals": "^2.1.4",
-    "sass": "^1.54.8"
-
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -83,7 +82,7 @@
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
     "prop-types": "^15.8.1",
-    "sass": "^1.54.8",
+    "sass": "^1.54.9",
     "webpack": "^5.74.0"
   }
 }
