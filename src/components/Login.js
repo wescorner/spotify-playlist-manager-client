@@ -10,7 +10,7 @@ export default function Login({ setLoggingIn }) {
       <h1 className="title">Playlist Manager</h1>
       <a
         className="login"
-        href="https://api.spotifyplaylistmanager.com/login"
+        href="https://playlist-manager-server.herokuapp.com/login"
         onClick={setLoggingIn}
       >
         {" "}

@@ -2,7 +2,7 @@
   "name": "spotify-playlist-manager",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://api.spotifyplaylistmanager.com",
+  "proxy": "https://playlist-manager-server.herokuapp.com",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
